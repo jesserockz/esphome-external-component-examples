@@ -1,3 +1,9 @@
+# Archived
+
+Use https://github.com/esphome/starter-components
+
+
+
 # ![ESPHome logo](esphome-logo.png) ESPHome External Component Examples
 
 This repository provides examples and basic empty components that can be used as templates to quickly develop your own external components for the splendid [ESPHome](https://esphome.io/) ESP8266/ESP32 home automation system.
