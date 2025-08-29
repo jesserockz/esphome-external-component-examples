@@ -19,7 +19,7 @@ CONFIG_SCHEMA = (
         accuracy_decimals=1,
     )
     .extend(cv.polling_component_schema("60s"))
-    .extend(i2c.i2c_device_schema(0x01))
+    .extend(i2c.i2c_device_schema(0x01)) # Default i2c address of device
 )
 
 

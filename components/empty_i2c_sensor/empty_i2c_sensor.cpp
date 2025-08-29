@@ -7,7 +7,7 @@ namespace empty_i2c_sensor {
 static const char *TAG = "empty_i2c_sensor.sensor";
 
 void EmptyI2CSensor::setup(){
-    
+
 }
 
 void EmptyI2CSensor::update(){

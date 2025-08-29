@@ -13,7 +13,7 @@ EmptyI2CComponent = empty_i2c_component_ns.class_(
 CONFIG_SCHEMA = (
     cv.Schema({cv.GenerateID(): cv.declare_id(EmptyI2CComponent)})
     .extend(cv.COMPONENT_SCHEMA)
-    .extend(i2c.i2c_device_schema(0x01))
+    .extend(i2c.i2c_device_schema(0x01)) # Default i2c address of device
 )
 
 
